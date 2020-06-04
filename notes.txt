@@ -1,0 +1,8 @@
+activate the vitual environment on the git shell
+
+
+	$source env/scripts/activate
+
+deactivate the vitual environemnt on the git shell
+
+	$deactivate

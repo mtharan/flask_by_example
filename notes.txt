@@ -35,3 +35,9 @@ setup proxy
 =============
 
 git config --global --add https.proxy http://rmurali02:<password>@10.0.3.249:80
+
+unset proxy
+
+git config --unset http.proxy
+git config --unset https.proxy
+

@@ -6,3 +6,32 @@ activate the vitual environment on the git shell
 deactivate the vitual environemnt on the git shell
 
 	$deactivate
+	
+	
+commit the project first time
+==============================
+
+
+$git add --all 
+$git commit -m "created a new projet flask_by_example"
+
+
+now login into github
+
+========================
+1. https:/github.com
+2. create a new repository flask_by_example
+
+3. now on the git command prompt
+
+	$git remote add origin https://github.com/mtharan/flask_by_example.git
+	$git push -u origin master
+
+
+
+git remote add pro git@mtharan:flask_by_example.git
+
+setup proxy
+=============
+
+git config --global --add https.proxy http://rmurali02:<password>@10.0.3.249:80

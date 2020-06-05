@@ -41,3 +41,23 @@ unset proxy
 git config --unset http.proxy
 git config --unset https.proxy
 
+
+for updating new local changes to github
+=========================================
+First, you need to tell Git who you are:
+
+git config --global user.email "murali_tharan@yahoo.com"
+git config --global user.name "mtharan"
+
+
+list all the remotes
+======================
+ git remote
+ git remote -v 
+ 
+ 
+ git fetch <name>
+ 
+ git remote show origin
+ 
+ git remote rm <name> - to remove the remote
